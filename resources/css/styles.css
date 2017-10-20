@@ -1,0 +1,29 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  }
+
+  /*banner with company logo */
+
+.company {
+  display: flex;
+  flexwrap: wrap;
+  align-items: center;
+  background-color: black;
+  color: white;
+  }
+ .banner{
+   max-width: 960px;
+ }
+
+.banner img {
+  height: 1.5rem;
+  width: 1.8rem;
+  margin-right: 1rem;
+  margin-left: .5rem;
+  align-content: center;
+}
+.logo {
+  font-size: 1rem;
+  text-align: center;
+}
