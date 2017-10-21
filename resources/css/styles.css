@@ -20,7 +20,7 @@ max-width: 960px;
   display: flex;
   flex-wrap: wrap;
   tex-align: left;
-  margin-left: 15rem;
+  margin-left: 10rem;
 }
 .banner img{
   height: 1.5rem;
@@ -28,25 +28,20 @@ max-width: 960px;
  margin-top: 1rem;
 }
 
-.supporting{
-  margin: 4em auto;
-}
  /*new arrivals container*/
 
 .subcontainer{
   display: block;
    background-color: black;
    margin: auto;
-   max-width: 500px;
-}
+   max-width: 22rem;
+   }
 .supporting {
     display: block;
  height: 10rem;
  width: 30rem;
-
-
+ margin: 4rem 0rem;
  }
-
 .headline{
  color: white;
  padding-top: .5rem;
@@ -57,4 +52,37 @@ margin-top: 5rem;
 }
 h2 h4{
  color: white;
+}
+/*nav bar*/
+
+
+.main {
+  height: 30rem;
+  background-color: white;
+}
+
+.main img {
+  width: 15rem;
+  display: block;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+nav {
+  background-color: firebrick;
+    color: white;
+  padding-bottom: 1.25rem;
+    padding-top: 0.75rem;
+}
+
+ul {
+  list-style: none;
+  align-items: center;
+  margin: 0;
+  }
+
+li {
+  display: inline-block;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
