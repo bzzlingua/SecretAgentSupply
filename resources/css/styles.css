@@ -5,15 +5,15 @@ body{
 
 .company{
 background-image: url("../images/moto.jpeg");
-height: 30rem;
+height: 25rem;
 background-repeat: no-repeat;
 max-width: 960px;
 }
 .container {
  background-color: black;
  color: white;
- max-width: 960px;
  display: flex;
+ max-width: 960px;
 }
 
 .banner{
@@ -21,11 +21,13 @@ max-width: 960px;
   flex-wrap: wrap;
   tex-align: left;
   margin-left: 10rem;
+  padding: 0.66rem 0;
 }
 .banner img{
   height: 1.5rem;
- width: 1.8rem;
  margin-top: 1rem;
+ padding-left: 0.5rem;
+ padding-right: 1rem;
 }
 
  /*new arrivals container*/
@@ -33,56 +35,102 @@ max-width: 960px;
 .subcontainer{
   display: block;
    background-color: black;
-   margin: auto;
-   max-width: 22rem;
+   margin-top: 9rem;
+   margin-left: 10rem;
+   margin-bottom: 6rem;
+   width: 20rem;
    }
 .supporting {
     display: block;
- height: 10rem;
- width: 30rem;
- margin: 4rem 0rem;
- }
+    height: 10rem;
+margin-top: 9rem;
+  }
 .headline{
  color: white;
- padding-top: .5rem;
-margin-right: 10rem;
-margin-left: 3rem;
-margin-top: 5rem;
-
-}
+ padding: 2rem 0rem 0rem 3rem;
+ }
 h2 h4{
  color: white;
 }
 /*nav bar*/
 
-
 .main {
-  height: 30rem;
   background-color: white;
-}
-
-.main img {
-  width: 15rem;
-  display: block;
-  margin: auto;
-  margin-top: 5rem;
+  max-width: 960px;
+  margin: 0;
+  height: 30rem;
 }
 
 nav {
   background-color: firebrick;
     color: white;
-  padding-bottom: 1.25rem;
-    padding-top: 0.75rem;
+    max-width: 960px;
 }
 
 ul {
   list-style: none;
-  align-items: center;
-  margin: 0;
+   margin: 0.75rem 1.25rem 0.75rem 1.25rem;
   }
 
 li {
   display: inline-block;
   padding-right: 1rem;
-  padding-left: 1rem;
+  padding-left: 2rem;
+ }
+ .offer {
+  display: flex;
+  margin: 3rem 3rem 0rem 4rem;
+  height: 30rem;
+ max-width: 960px;
 }
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  }
+.cell{
+  width: 12.5rem;
+  height: 13rem;
+  border: 4px solid black;
+  margin-right: 1.25rem;
+  justify-content: center;
+}
+.cell img{
+  display: block;
+  width: 9rem;
+  height: 9rem;
+  padding: 1rem;
+}
+.description {
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
+.info-container{
+  width: 80%;
+  max-width: 960px;
+    margin: 0 auto;
+    border: solid black 1px;
+}
+.info-grid{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  }
+  .info-cell{
+    width: 12.5rem;
+    height: 5rem;
+    margin-right: 1.25rem;
+    justify-content: center;
+  }
+  #hours{
+    background: black;
+    color: white;
+  }
+
+  #location{
+    background: black;
+    color: white;
+  }
