@@ -5,26 +5,30 @@ body{
 
 .company{
 background-image: url("../images/moto.jpeg");
+background-size: cover;
 height: 25rem;
 background-repeat: no-repeat;
-max-width: 960px;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
 .container {
  background-color: black;
  color: white;
- display: flex;
- width: 100%;
+  width: 100%;
 }
 .banner{
   display: flex;
-  flex-wrap: wrap;
   tex-align: left;
+  align-items: center;
   margin-left: 10rem;
   padding: 0.66rem 0;
+  width: 100%;
+
 }
 .banner img{
   height: 1.5rem;
- margin-top: 1rem;
  padding-left: 0.5rem;
  padding-right: 1rem;
 }
@@ -32,7 +36,6 @@ max-width: 960px;
  /*new arrivals container*/
 .container2{
   display: block;
-  height: 20rem;
   margin-top: 9rem;
   margin-bottom: 0rem;
   max-width: 50%;
@@ -56,49 +59,54 @@ h2{
 h4{
  font-size: 1rem;
  font-weight: bold;
- margin-top: .25rem;
-  }
+}
 
 /*nav bar*/
 
 .main {
-  background-color: white;
-  max-width: 960px;
+  width: 100%;
   margin: 0;
-  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 nav {
+  display: flex;
+  justify-content: center;
   background-color: firebrick;
-    color: white;
+  color: white;
   width: 100%;
 }
 ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
   list-style: none;
-   margin: 0.75rem 1.25rem 0.75rem 1.25rem;
-  }
-li {
-  display: inline-block;
-  padding-right: 1rem;
-  padding-left: 2rem;
  }
- .offer {
+.offer {
   display: flex;
   justify-content: center;
-  margin: 3rem 3rem 0rem 10rem;
+  margin-top: 3rem;
   height: 20rem;
  width: 100%;
 }
 .grid{
+  width: 960px;
   display: flex;
-  flex-wrap: no-wrap;
-  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
   }
+
 .cell{
+  display: flex;
+  flex-direction: column;
   width: 12.5rem;
   height: 13rem;
+  align-items: center;
   border: 4px solid black;
-  margin-right: 1.25rem;
-  justify-content: center;
+  justify-content: space-between;
 }
 .cell img{
   display: block;
@@ -106,24 +114,30 @@ li {
   height: 9rem;
   padding: 1rem;
 }
+#glasses{
+  margin-top: 1.5rem;
+  width: 100%;
+  height: auto;
+}
 .description {
-    display: block;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 0.5em;
-    
+  width: 100%;
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5em 0;
+}
 .info-container{
   display: flex;
-  max-width: 960px;
-  border: solid black 1px;
-  margin: 3rem 3rem 4rem 10rem;
+  justify-content: center;
+  width: 100%;
   height: 10rem;
 }
 .info-grid{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: space-between;
   }
   .info-cell{
     width: 12.5rem;
@@ -140,3 +154,17 @@ li {
     background: black;
     color: white;
   }
+/*footer*/
+.footer{
+  color: white;
+  background-color: black;
+  height: 5rem;
+  width: 100%;
+  margin-top: 4rem;
+}
+#copyright{
+  text-align: left;
+  align-items: center;
+  padding-top: 2rem;
+  margin-left: 10rem;
+}
