@@ -83,14 +83,15 @@ li {
  }
  .offer {
   display: flex;
+  justify-content: center;
   margin: 3rem 3rem 0rem 10rem;
   height: 20rem;
  width: 100%;
 }
 .grid{
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: center;
   }
 .cell{
   width: 12.5rem;
@@ -111,7 +112,7 @@ li {
     color: white;
     text-align: center;
     padding: 0.5em;
-}
+    
 .info-container{
   display: flex;
   max-width: 960px;
