@@ -15,7 +15,6 @@ max-width: 960px;
  display: flex;
  max-width: 960px;
 }
-
 .banner{
   display: flex;
   flex-wrap: wrap;
@@ -31,47 +30,52 @@ max-width: 960px;
 }
 
  /*new arrivals container*/
-
-.subcontainer{
+.container2{
+  display: block;
+  height: 20rem;
+  margin-top: 9rem;
+  margin-bottom: 0rem;
+  width: 25rem;
+  margin-left: 10rem;
+}
+.black-box{
   display: block;
    background-color: black;
-   margin-top: 9rem;
-   margin-left: 10rem;
-   margin-bottom: 6rem;
-   width: 20rem;
-   }
-.supporting {
-    display: block;
-    height: 10rem;
-margin-top: 9rem;
-  }
-.headline{
- color: white;
- padding: 2rem 0rem 0rem 3rem;
+   color: white;
  }
-h2 h4{
- color: white;
+.headline{
+  padding-top: 2rem;
+  padding-right: 1rem,
+  padding-bottom: 2rem;
+  padding-left: 3rem;
 }
+h2{
+  font-size: 2rem;
+  font-weight: bold;
+}
+h4{
+ font-size: 1rem;
+ font-weight: bold;
+ margin-top: .25rem;
+  }
+
 /*nav bar*/
 
 .main {
   background-color: white;
   max-width: 960px;
   margin: 0;
-  height: 30rem;
+  height: 20rem;
 }
-
 nav {
   background-color: firebrick;
     color: white;
     max-width: 960px;
 }
-
 ul {
   list-style: none;
    margin: 0.75rem 1.25rem 0.75rem 1.25rem;
   }
-
 li {
   display: inline-block;
   padding-right: 1rem;
@@ -80,7 +84,7 @@ li {
  .offer {
   display: flex;
   margin: 3rem 3rem 0rem 4rem;
-  height: 30rem;
+  height: 20rem;
  max-width: 960px;
 }
 .grid{
@@ -109,10 +113,11 @@ li {
     padding: 0.5em;
 }
 .info-container{
-  width: 80%;
+  display: flex;
   max-width: 960px;
-    margin: 0 auto;
-    border: solid black 1px;
+  border: solid black 1px;
+  margin: 3rem 3rem 4rem 4rem;
+  height: 10rem;
 }
 .info-grid{
   display: flex;
@@ -124,12 +129,12 @@ li {
     height: 5rem;
     margin-right: 1.25rem;
     justify-content: center;
+    tex-align: center;
   }
   #hours{
     background: black;
     color: white;
   }
-
   #location{
     background: black;
     color: white;
